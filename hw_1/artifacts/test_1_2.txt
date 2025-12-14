@@ -1,0 +1,60 @@
+#1
+$ python3 tail.py file1.txt
+line 6
+line 7
+line 8
+line 9
+line 10
+line 11
+line 12
+line 13
+line 14
+line 15
+
+
+#2
+$ python3 tail.py file1.txt file2.txt
+==> file1.txt <==
+line 6
+line 7
+line 8
+line 9
+line 10
+line 11
+line 12
+line 13
+line 14
+line 15
+
+==> file2.txt <==
+a
+b
+c
+d
+e
+
+
+#3
+$ seq 1 20 | python3 tail.py
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+
+#4
+$ python3 tail.py notfound.txt
+tail: notfound.txt: No such file or directory

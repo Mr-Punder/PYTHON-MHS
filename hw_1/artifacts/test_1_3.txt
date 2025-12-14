@@ -1,0 +1,20 @@
+#1
+$ python3 wc.py test.txt
+       5       7      36 test.txt
+
+
+#2
+$ python3 wc.py test.txt file2.txt
+       5       7      36 test.txt
+       5       5      10 file2.txt
+      10      12      46 total
+
+
+#3
+$ echo -e "one two\nthree four five" | python3 wc.py
+       2       5      24
+
+
+#4
+$ python3 wc.py nonexistent.txt
+wc: nonexistent.txt: No such file or directory
