@@ -1,0 +1,4 @@
+hash(A) = 47
+hash(C) = 47
+hash(AB) = 777
+hash(CD) = 786
