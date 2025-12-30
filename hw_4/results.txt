@@ -1,0 +1,5 @@
+fib(35), 10 runs
+
+sync:    11.5238s
+threads: 11.1579s (x1.03)
+process: 1.6405s (x7.02)
